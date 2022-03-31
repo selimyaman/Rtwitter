@@ -4,7 +4,7 @@
 \alias{extract.sentiments}
 \title{Sentiment Analysis of Tweets}
 \usage{
-extract.sentiments(df)
+\method{extract}{sentiments}(df)
 }
 \arguments{
 \item{df}{A dataset containing a column named 'text'}

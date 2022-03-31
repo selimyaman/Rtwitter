@@ -2,13 +2,14 @@
 #'
 #' @param df A dataset containing a column named 'text'
 #'
+#' @param k Number of words that you want to include. Default is 10
 #' @return Interactive Plot
 #'
 #' @examples
 #' word.network(tweets)
 #'
 #' @export
-word.network <- function (df) {
+word.network <- function (df,k=10) {
   bi.gram.words <- df %>%
     unnest_tokens(
       input = text,
@@ -18,7 +19,7 @@ word.network <- function (df) {
     filter(! is.na(bigram))
   bi.gram.words %>%
     select(bigram) %>%
-    head(10)
+    head(k)
   extra.stop.words <- c('https')
   stopwords.df <- tibble(
     word = c(stopwords(kind = 'en'),extra.stop.words))

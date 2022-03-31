@@ -4,10 +4,12 @@
 \alias{word.network}
 \title{See How Words Assosciate with Each Other}
 \usage{
-word.network(df)
+word.network(df, k = 10)
 }
 \arguments{
 \item{df}{A dataset containing a column named 'text'}
+
+\item{k}{Number of words that you want to include. Default is 10}
 }
 \value{
 Interactive Plot

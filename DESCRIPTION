@@ -22,8 +22,10 @@ Imports:
     wordcloud,
     lubridate,
     tm,
-    emo,
+    emo (>= 0.0.0.9000),
     stringr,
     tidyr
 Depends: 
     R (>= 2.10)
+Remotes:  
+    github::hadley/emo

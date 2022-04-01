@@ -15,7 +15,3 @@ Ggplot Graph
 \description{
 Sentiment Analysis of Tweets
 }
-\examples{
-extract.sentiments(tweets)
-
-}

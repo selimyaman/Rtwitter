@@ -3,6 +3,11 @@
 
 # Rtwitter
 
+<!-- badges: start -->
+
+[![R-CMD-check](https://github.com/selimyaman/Rtwitter/workflows/R-CMD-check/badge.svg)](https://github.com/selimyaman/Rtwitter/actions)
+<!-- badges: end -->
+
 Rtwitter lets you analyze and visualize Twitter data. You can easily do
 a sentiment analysis, plot interactive word networks, or create table of
 most used emojis along with 13 other functions for various visualization

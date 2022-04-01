@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
 library(badger)
 ```
 
-<img src="man/figures/hex-Rtwitter.png" align="right"  height="200"/>
+<img src="man/figures/logo.png" align="right"  height="200"/>
 
 `r badge_lifecycle("maturing", "blue")`
 `r badge_last_commit("selimyaman/Rtwitter")`

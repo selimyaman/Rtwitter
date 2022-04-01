@@ -15,10 +15,11 @@ knitr::opts_chunk$set(
 
 # Rtwitter
 
-```{r}
+```{r include=FALSE}
 library(badger)
 ```
-<img src="hex-Rtwitter.png" align="right"  height="200" />
+
+<img src="man/figures/hex-Rtwitter.png" align="right"  height="200"/>
 
 `r badge_lifecycle("maturing", "blue")`
 `r badge_last_commit("selimyaman/Rtwitter")`

@@ -3,12 +3,7 @@
 
 # Rtwitter
 
-``` r
-library(badger)
-#> Warning: package 'badger' was built under R version 4.1.2
-```
-
-<img src="hex-Rtwitter.png" align="right"  height="200" />
+<img src="man/figures/hex-Rtwitter.png" align="right"  height="200"/>
 
 [![](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://lifecycle.r-lib.org/articles/stages.html#maturing)
 [![](https://img.shields.io/github/last-commit/selimyaman/Rtwitter.svg)](https://github.com/selimyaman/Rtwitter/commits/master)

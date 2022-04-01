@@ -18,6 +18,7 @@ Table
 This function lets you to view a random number of tweets in a nice format.
 }
 \examples{
+tweets <- Rtwitter::tw
 view.randomly(tweets, n=5)
 
 }

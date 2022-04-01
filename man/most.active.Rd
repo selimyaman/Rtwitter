@@ -16,6 +16,7 @@ Wordcloud
 See Most Active Accounts that Post Most Tweets
 }
 \examples{
+tweets <- Rtwitter::tw
 most.active(tweets)
 
 }

@@ -6,6 +6,7 @@
 #' @return Interactive Plot
 #'
 #' @examples
+#' tweets <- Rtwitter::tw
 #' word.network(tweets)
 #'
 #' @export

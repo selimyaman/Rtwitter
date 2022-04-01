@@ -16,6 +16,7 @@ Ggplot Graph
 See Most Liked Tweets
 }
 \examples{
+tweets <- Rtwitter::tw
 most.liked(tweets)
 
 }

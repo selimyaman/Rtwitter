@@ -5,6 +5,7 @@
 #' @return Ggplot Graph
 #'
 #' @examples
+#' tweets <- Rtwitter::tw
 #' most.retweets(tweets)
 #'
 #' @export

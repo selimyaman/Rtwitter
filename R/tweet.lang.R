@@ -5,6 +5,7 @@
 #' @return Plot
 #'
 #' @examples
+#' tweets <- Rtwitter::tw
 #' tweet.lang(tweets)
 #'
 #' @export

@@ -16,6 +16,7 @@ Graph
 See Most Frequent User Locations
 }
 \examples{
+tweets <- Rtwitter::tw
 user.locations(tweets)
 
 }

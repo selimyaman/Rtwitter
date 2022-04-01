@@ -21,4 +21,5 @@
 #' @import emo
 #' @import stringr
 #' @import tidyr
+#' @import RColorBrewer
 NULL

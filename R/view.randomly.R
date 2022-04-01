@@ -9,6 +9,7 @@
 #' @return Table
 #'
 #' @examples
+#' tweets <- Rtwitter::tw
 #' view.randomly(tweets, n=5)
 #'
 #' @export

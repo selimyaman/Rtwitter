@@ -16,6 +16,7 @@ Ggplot Graph
 See Most Retweeted Tweets
 }
 \examples{
+tweets <- Rtwitter::tw
 most.retweets(tweets)
 
 }

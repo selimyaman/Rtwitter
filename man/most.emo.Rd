@@ -16,6 +16,7 @@ Table
 See Most Used Emojis in Tweets
 }
 \examples{
+tweets <- Rtwitter::tw
 most.emo(tweets)
 
 }

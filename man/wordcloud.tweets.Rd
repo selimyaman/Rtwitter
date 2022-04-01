@@ -16,6 +16,7 @@ Wordcloud Graph
 See Most Frequently Used Words in a Wordcloud
 }
 \examples{
+tweets <- Rtwitter::tw
 wordcloud.tweets(tweets)
 
 }

@@ -7,6 +7,7 @@
 #' @return Wordcloud Graph
 #'
 #' @examples
+#' tweets <- Rtwitter::tw
 #' wordcloud.hashtags(tweets)
 #'
 #' @export
@@ -22,7 +23,7 @@ wordcloud.hashtags <- function (df) {
   top_20_hashtags <- as.character(as.data.frame(top_20_freqs)[,1])
   wordcloud(top_20_hashtags, top_20_freqs,
             scale=c(3.5,1.5), random.order=FALSE,
-            colors=brewer.pal(8, "Dark2"),
+            colors=RColorBrewer::brewer.pal(8, "Dark2"),
             random.color=FALSE,
             rot.per=.25,
             min.freq = 20)}

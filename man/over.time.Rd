@@ -18,6 +18,7 @@ Ggplot object
 See the FREQUENCY OF TWEETS OVER TIME
 }
 \examples{
+tweets <- Rtwitter::tw
 over.time(tweets, timeframe="months")
 
 }

@@ -5,10 +5,11 @@
 #' @return Ggplot Graph
 #'
 #' @examples
-#' extract.sentiments(tweets)
+#' tweets <- Rtwitter::tw
+#' extract_sentiments(tweets)
 #'
 #' @export
-extract.sentiments <- function(df){
+extract_sentiments <- function(df){
   # Converting tweets to ASCII to trackle strange characters
   sentiments <- iconv(df$text, from="UTF-8", to="ASCII", sub="")
   # removing retweets, in case needed

@@ -18,6 +18,7 @@ Interactive Plot
 See How Words Assosciate with Each Other
 }
 \examples{
+tweets <- Rtwitter::tw
 word.network(tweets)
 
 }

@@ -16,6 +16,7 @@ Plot
 See Most Frequently Used Sources for Tweets
 }
 \examples{
+tweets <- Rtwitter::tw
 tweet.sources(tweets)
 
 }

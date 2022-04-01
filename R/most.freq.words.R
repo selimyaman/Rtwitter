@@ -5,6 +5,7 @@
 #' @return Ggplot Graph
 #'
 #' @examples
+#' tweets <- Rtwitter::tw
 #' most.freq.words(tweets)
 #'
 #' @export
@@ -12,7 +13,7 @@
 most.freq.words <- function (df) {df %>%
     select(text) %>%
     unnest_tokens(word, text) %>%
-    filter(!(gsub("'", "", word) %in% gsub("'", "", stop_words$word)) & word != "") %>%
+    filter(!(gsub("'", "", word) %in% gsub("'", "", tidytext::stop_words$word)) & word != "") %>%
     count(word, sort = TRUE) %>%
     top_n(15) %>%
     mutate(word = reorder(word, n)) %>%

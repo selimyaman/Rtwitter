@@ -5,6 +5,7 @@
 #' @return Wordcloud
 #'
 #' @examples
+#' tweets <- Rtwitter::tw
 #' most.active(tweets)
 #'
 #' @export

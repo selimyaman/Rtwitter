@@ -18,6 +18,7 @@ Table
 This function lets you to view the top hashtags.
 }
 \examples{
-top.hashtags(tweets, n=5)
+tweets <- Rtwitter::tw
+top.hashtags(tweets, k=5)
 
 }

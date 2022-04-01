@@ -16,6 +16,7 @@ Table
 See 10 Most Mentioned Accounts in Tweets
 }
 \examples{
+tweets <- Rtwitter::tw
 most.mentioned(tweets)
 
 }

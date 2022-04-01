@@ -7,6 +7,7 @@
 #' @return Ggplot object
 #'
 #' @examples
+#' tweets <- Rtwitter::tw
 #' over.time(tweets, timeframe="months")
 #'
 #' @export

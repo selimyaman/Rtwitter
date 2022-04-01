@@ -5,6 +5,7 @@
 #' @return Wordcloud Graph
 #'
 #' @examples
+#' tweets <- Rtwitter::tw
 #' wordcloud.tweets(tweets)
 #'
 #' @export

@@ -16,6 +16,7 @@ Plot
 See Most Frequently Used Languages in Tweets
 }
 \examples{
+tweets <- Rtwitter::tw
 tweet.lang(tweets)
 
 }

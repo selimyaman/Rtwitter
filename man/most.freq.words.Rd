@@ -16,6 +16,7 @@ Ggplot Graph
 See Most Frequently Used Words in Tweets
 }
 \examples{
+tweets <- Rtwitter::tw
 most.freq.words(tweets)
 
 }

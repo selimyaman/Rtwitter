@@ -5,6 +5,7 @@
 #' @return Plot
 #'
 #' @examples
+#' tweets <- Rtwitter::tw
 #' tweet.sources(tweets)
 #'
 #' @export

@@ -16,6 +16,7 @@ Wordcloud Graph
 This function lets you to view the top 20 hashtags via a wordcloud
 }
 \examples{
+tweets <- Rtwitter::tw
 wordcloud.hashtags(tweets)
 
 }

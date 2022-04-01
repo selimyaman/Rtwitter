@@ -9,7 +9,8 @@
 #' @return Table
 #'
 #' @examples
-#' top.hashtags(tweets, n=5)
+#' tweets <- Rtwitter::tw
+#' top.hashtags(tweets, k=5)
 #'
 #' @export
 top.hashtags <- function (df, k=20) {

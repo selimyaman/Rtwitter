@@ -5,6 +5,7 @@
 #' @return Graph
 #'
 #' @examples
+#' tweets <- Rtwitter::tw
 #' user.locations(tweets)
 #'
 #' @export

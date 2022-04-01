@@ -5,6 +5,7 @@
 #' @return Table
 #'
 #' @examples
+#' tweets <- Rtwitter::tw
 #' most.mentioned(tweets)
 #'
 #' @export

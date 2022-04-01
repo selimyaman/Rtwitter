@@ -15,13 +15,11 @@ knitr::opts_chunk$set(
 
 # Rtwitter
 
+```{r eval=FALSE, include=FALSE}
+#this part normally should be outside of the code chunk:
 <!-- badges: start -->
   [![R-CMD-check](https://github.com/selimyaman/Rtwitter/workflows/R-CMD-check/badge.svg)](https://github.com/selimyaman/Rtwitter/actions)
 <!-- badges: end -->
-
-```{r eval=FALSE, include=FALSE}
-#this part normally should be outside of the code chunk:
-
 # this is the code to renew readme file
   devtools::build_readme()
 ```

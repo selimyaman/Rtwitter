@@ -3,6 +3,16 @@
 
 # Rtwitter
 
+``` r
+library(badger)
+#> Warning: package 'badger' was built under R version 4.1.2
+```
+
+<img src="hex-Rtwitter.png" align="right"  height="200" />
+
+[![](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://lifecycle.r-lib.org/articles/stages.html#maturing)
+[![](https://img.shields.io/github/last-commit/selimyaman/Rtwitter.svg)](https://github.com/selimyaman/Rtwitter/commits/master)
+
 Rtwitter lets you analyze and visualize Twitter data. You can easily do
 a sentiment analysis, plot interactive word networks, or create table of
 most used emojis along with 13 other functions for various visualization

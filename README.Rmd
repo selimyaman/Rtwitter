@@ -15,6 +15,14 @@ knitr::opts_chunk$set(
 
 # Rtwitter
 
+```{r}
+library(badger)
+```
+<img src="hex-Rtwitter.png" align="right"  height="200" />
+
+`r badge_lifecycle("maturing", "blue")`
+`r badge_last_commit("selimyaman/Rtwitter")`
+
 ```{r eval=FALSE, include=FALSE}
 #this part normally should be outside of the code chunk:
 <!-- badges: start -->

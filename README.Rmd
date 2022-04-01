@@ -46,6 +46,10 @@ You can install the development version of Rtwitter from [GitHub](https://github
 devtools::install_github("selimyaman/Rtwitter")
 ```
 
+# Getting Started
+
+Check out [my blog post](https://selimyaman.com/post/rtwitter-showcase/) to see a showcase of the functions included in the package.
+
 ## Example Usage
 
 ```{r eval=FALSE}
@@ -59,3 +63,4 @@ Rtwitter::word.network(tweets)
 ```
 
 You can check out other functions included in the package by typing `Rtwitter::` in your console.
+

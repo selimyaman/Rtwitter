@@ -28,6 +28,11 @@ You can install the development version of Rtwitter from
 devtools::install_github("selimyaman/Rtwitter")
 ```
 
+# Getting Started
+
+Check out [my blog post](https://selimyaman.com/post/rtwitter-showcase/)
+to see a showcase of the functions included in the package.
+
 ## Example Usage
 
 ``` r
